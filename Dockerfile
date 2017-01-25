@@ -23,4 +23,4 @@ VOLUME /var/www/htdocs
 RUN sed -i 's/DocumentRoot \/var\/www\/html/DocumentRoot \/var\/www\/htdocs/' /etc/apache2/sites-available/000-default.conf
 RUN sed -i 's/DocumentRoot \/var\/www\/html/DocumentRoot \/var\/www\/htdocs/' /etc/apache2/sites-available/default-ssl.conf
 
-#COPY redis.conf /var/www/htdocs/app/etc/
+COPY redis.conf /var/www/htdocs/app/etc/
