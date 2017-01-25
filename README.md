@@ -2,7 +2,7 @@
 
 [![](https://images.microbadger.com/badges/image/alexcheng/magento.svg)](http://microbadger.com/images/alexcheng/magento)
 
-[![Docker build](http://dockeri.co/image/ybalt/magento)](https://hub.docker.com/r/ybalt/magento/)
+[![Docker build](http://dockeri.co/image/ybalt/docker-magento)](https://hub.docker.com/r/ybalt/docker-magento/)
 
 This repo creates a Docker image for [Magento 1.x](http://magento.com/).
 
